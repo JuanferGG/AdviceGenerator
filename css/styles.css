@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(218, 23%, 16%);
+}
+main{
+    width: 400px;
+    height: fit-content;
+    padding: 1em .5em;
+    background-color: hsl(217, 19%, 24%);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: .8em;
+}
+main h2{
+    color: hsl(150, 100%, 66%);
+    font-size: 1em;
+    display: none;
+}
+main p{
+    font-size: 1.5em;
+    display: none;
+}
+main .line{
+    width: 100%;
+    display: none;
+}
+main button{
+    position: relative;
+    left: 0;
+    cursor: pointer;
+    background-color: hsl(150, 100%, 66%);
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    padding: .5em .7em;
+}
